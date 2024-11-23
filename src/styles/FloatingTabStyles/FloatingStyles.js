@@ -6,11 +6,9 @@ export default StyleSheet.create({
       position: 'absolute',
       right: 20,
       bottom: 100, // 하단 네비게이션 바 위에 배치
-
-      backgroundColor: '#00B9A5',
-      width: 64,
-      height: 64,
-
+      backgroundColor: '#00BFA5',
+      width: 60,
+      height: 60,
       borderRadius: 30,
       alignItems: 'center',
       justifyContent: 'center',
@@ -21,7 +19,7 @@ export default StyleSheet.create({
       elevation: 5,
     },
     icon: {
-      width: 32,
-      height: 32,
+      width: 30,
+      height: 30,
     },
   });

@@ -19,7 +19,7 @@ const TotalExpense = ({ month, expense }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.totalExpenseText}>
-        {`${month} 소비 ${expense.toLocaleString()} 원`}
+        {`${month}월 소비 ${expense.toLocaleString()} 원`}
       </Text>
     </View>
   );
