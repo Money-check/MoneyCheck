@@ -19,6 +19,8 @@ const SubscriptionAddScreen = ({ route, navigation }) => {
   const handleAddSubscription = () => {
     if (!monthlyFee || !paymentDay) {
       alert('모든 필드를 입력해주세요.');
+
+      
       return;
     }
 

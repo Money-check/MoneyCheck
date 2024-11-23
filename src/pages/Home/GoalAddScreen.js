@@ -11,6 +11,9 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
+
+
+
 const GoalAddScreen = ({ navigation, route }) => {
   const [title, setTitle] = useState('');
   const [targetAmount, setTargetAmount] = useState('');

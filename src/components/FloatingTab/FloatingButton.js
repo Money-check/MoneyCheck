@@ -11,7 +11,8 @@ const FloatingButton = () => {
 
   return (
     <TouchableOpacity style={styles.button} onPress={handlePress}>
-      <Image source={require('../../../assets/ocr_icon.png')} style={styles.icon} />
+      <Image source={require('../../assets/ocr_icon.png')} style={styles.icon} />
+
     </TouchableOpacity>
   );
 };

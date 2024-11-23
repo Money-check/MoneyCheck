@@ -28,4 +28,12 @@ export default StyleSheet.create({
       color: '#4CAF50',
       fontWeight: 'bold',
     },
+
+    summaryContainer: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      // marginHorizontal: 10,
+      // marginVertical: 2,
+    },
+    
   });
