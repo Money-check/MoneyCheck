@@ -5,10 +5,12 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { View, StyleSheet, Image } from "react-native";
 import HomeScreen from "../pages/Home/HomeScreen";
 import AccountBookScreen from "../pages/AccountBook";
-import GroupManagement from "../pages/GroupManagement";
+import GroupManagement from "../pages/Group/GroupManagement";
 import Statistics from "../pages/Stats";
 import FloatingButton from "../components/FloatingTab/FloatingButton";
 import CustomHeader from "../components/CustomHeader";
+import GroupStackNavigator from '../navigation/GroupStackNavigator';
+
 
 // Importing custom images
 const homeImage = require("../assets/home.png");
